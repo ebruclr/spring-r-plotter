@@ -17,9 +17,9 @@ This project reads dataset records from MongoDB, processes them dynamically usin
 
 ##  Configuration
 Check `src/main/resources/application.properties` for database and server configurations:
-```properties
-spring.data.mongodb.uri=mongodb://localhost:27017/bigdata
-server.port=8080
+  properties
+  spring.data.mongodb.uri=mongodb://localhost:27017/bigdata
+  server.port=8080
 
 ## How to Run
 Ensure MongoDB service is running locally.
