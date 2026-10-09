@@ -16,7 +16,7 @@ This project reads dataset records from MongoDB, processes them dynamically usin
 - Gradle
 
 ##  Configuration
-Check `src/main/resources/application.properties` for database and server configurations:
+Check `src/main/resources/application.properties` for database and server configurations : 
   properties
   spring.data.mongodb.uri=mongodb://localhost:27017/bigdata
   server.port=8080
